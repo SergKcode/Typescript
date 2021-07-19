@@ -31,7 +31,7 @@ let bumblebee:Vehicle = {
 
 type Villano = {
   nombre:string,
-  edad:number | undefined,
+  edad:number,
   mutante:boolean,
 };
 
@@ -46,7 +46,7 @@ let villanos:Villano[] = [{
   mutante: true
 },{
   nombre: "James Logan",
-  edad: undefined,
+  edad: 30,
   mutante: true
 }];
 
