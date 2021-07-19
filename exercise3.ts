@@ -57,7 +57,7 @@ type Charles ={
   poder:string,
   estatura:number
 }
-type Apocalipsis={
+type Apocalipsis1={
   lider:boolean,
   miembros:string[]
 }
@@ -67,13 +67,13 @@ let charles:Charles = {
   estatura: 1.78
 };
 
-let  apocalipsis:Apocalipsis= {
+let  apocalipsis1:Apocalipsis1= {
   lider:true,
   miembros: ["Magneto","Tormenta","Psylocke","Angel"]
 }
 
 // Mystique, debe poder ser cualquiera de esos dos mutantes (charles o apocalipsis)
-let mystique: Charles | Apocalipsis;
+let mystique: Charles | Apocalipsis1;
 
 mystique = charles;
-mystique = apocalipsis;
+mystique = apocalipsis1;
